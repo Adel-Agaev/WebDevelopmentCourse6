@@ -1,0 +1,203 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Alef');
+
+
+@import url('https://fonts.googleapis.com/css?family=Alef|Arimo');
+
+body {
+    direction: rtl;
+    background-color: black;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+/*.......עמודבית........*/
+
+#home {
+    background-color: rgba(47, 55, 71, 0.9);
+}
+
+#titlehome {
+    color: #63b7e6;
+    font-family: 'Arimo', sans-serif;
+    font-size:xx-large;
+}
+
+#phomepage {
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-size:medium;
+}
+
+
+/*........תפריט ניווט.......*/
+nav ul li {
+    float: right;
+    display: inline-block;
+    background-color: black;
+    color: floralwhite;
+    margin: 0 auto;
+}
+    nav ul li a {
+        display: block;
+        padding-top: 10px;
+        text-align: center;
+        color: white;
+        width: 240px;
+        height: 30px;
+        text-decoration: none;
+        background-color: rgba(47, 55, 71, 0.9);
+        font-family: 'Arimo', sans-serif;
+    }
+        nav ul li a:hover{
+            color:white;
+            background-color:black;
+        }
+        nav ul li a:active{
+            background-color:mediumpurple;
+        }
+
+/*...............*/
+
+header {
+    background-color: rgba(47, 55, 71, 0.9);
+    color: white ;
+      display:inline-block;   
+
+}
+
+.currentpage{
+   background-color:black;
+    color:Highlight;
+}
+
+/*........sticky.......*/
+
+header{
+    position: sticky;
+    top:0;
+
+}
+
+/*........ homepage photos.......*/
+#myphotomy {
+    width: 400px;
+    height: 400px;
+    margin-right: 270px;
+
+   
+}
+img {
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+#about img {
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+#toconect {
+    width: 200px;
+    margin-left: 950px;
+}
+    
+/*.............כותרות...............*/
+h1 {
+    clear: both;
+    padding-top: 100px;
+    font-family: 'Arimo', sans-serif;
+    color: mediumslateblue;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+h2 {
+    font-size: large;
+    color: Highlight;
+    text-align:center;
+}
+
+/*.......פסקאות........*/
+p {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+   
+}
+/*.......tikshoret........*/
+
+
+
+#myimage {
+    width: 150px;
+    margin-right: 400px;
+}
+#myimage2 {
+    width: 150px;
+    margin-right: 400px;
+}
+#myimage3 {
+    width: 150px;
+    margin-right: 400px;
+}
+iframe {
+    margin-right: 200px;
+}
+
+/*.......grafi........*/
+
+#myposter {
+    width: 200px;
+    padding-top: 20px;
+    margin-right: 400px;
+}
+audio {
+    margin-right: 350px;
+}
+
+/*........tmona..........*/
+#imageconect {
+    width: 200px;
+    margin-right: 380px;
+}
+
+#imageafterconect {
+    width: 200px;
+    margin-right: 380px;
+}
+
+
+ 
+
+
+
+
